@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    margin-top: 10px; 
+    border: 2px solid blue;
+}
+
+header {
+    margin-top: 10px; 
+    border: 2px solid blue;
+}
+section {
+    margin-top: 10px; 
+    border: 2px solid blue;
+}
+
+footer {
+    margin-top: 10px; 
+    border: 2px solid blue;
+}
+
+/* Celular */
+@media screen and (min-width: 576px) {
+    body {
+        background-color: #D1603D;    
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #DDB967;    
+    }
+}
+
+/* Netbook */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #D0E37F;    
+    }
+}
+
+/* PC escritorio */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #221D23;
+        color: white;
+    }
+    
+}
+/* Pantallas gigantes */
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: #4F3824;    
+        color: white;
+    }
+}
